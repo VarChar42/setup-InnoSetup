@@ -21,3 +21,6 @@ jobs:
         
       - name: Run
         uses: ./
+       
+      - name: Test install
+        run: ISCC.exe
