@@ -1,7 +1,6 @@
 name: 'setup-InnoSetup'
 description: 'Provide a description here'
 author: 'VarChar42'
-inputs:
 runs:
   using: 'node12'
   main: 'dist/index.js'
