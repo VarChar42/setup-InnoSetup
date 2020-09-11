@@ -16,7 +16,7 @@ async function run(): Promise<void> {
 
 
       core.info('Adding to the cache ...');
-      installDir = await tc.cacheDir(extractDir, 'ISCC', 'latest', 'x64');
+      installDir = await tc.cacheDir(extractDir, 'ISCC', 'latest');
 
     } else {
       core.info('Using cached version!');

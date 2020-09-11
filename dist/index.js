@@ -109,7 +109,7 @@ function run() {
                 core.info('Extracting ...');
                 let extractDir = yield tc.extractZip(archivePath, 'innosetup');
                 core.info('Adding to the cache ...');
-                installDir = yield tc.cacheDir(extractDir, 'ISCC', 'latest', 'x64');
+                installDir = yield tc.cacheDir(extractDir, 'ISCC', 'latest');
             }
             else {
                 core.info('Using cached version!');
