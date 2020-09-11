@@ -1,1 +1,1 @@
-##This action addes ISCC to path
+## This action adds ISCC.exe to path
