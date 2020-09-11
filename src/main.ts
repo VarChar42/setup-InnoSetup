@@ -4,7 +4,7 @@ import * as tc from '@actions/tool-cache'
 async function run(): Promise<void> {
   try {
 
-    let installDir = tc.find('ISCC.exe', 'latest');
+    let installDir = tc.find('ISCC', 'latest');
 
     if (!installDir) {
 
@@ -16,8 +16,10 @@ async function run(): Promise<void> {
 
 
       core.info('Adding to the cache ...');
-      installDir = await tc.cacheDir(extractDir, 'ISCC.exe', 'latest', 'x64');
+      installDir = await tc.cacheDir(extractDir, 'ISCC', 'latest', 'x64');
 
+    } else {
+      core.info('Using cached version!');
     }
 
     core.addPath(installDir);

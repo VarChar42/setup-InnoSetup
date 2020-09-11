@@ -102,14 +102,17 @@ const tc = __importStar(__webpack_require__(784));
 function run() {
     return __awaiter(this, void 0, void 0, function* () {
         try {
-            let installDir = tc.find('ISCC.exe', 'latest');
+            let installDir = tc.find('ISCC', 'latest');
             if (!installDir) {
                 core.info('Downloading ...');
                 let archivePath = yield tc.downloadTool("https://github.com/VarChar42/setup-InnoSetup/raw/main/bin/setup.zip");
                 core.info('Extracting ...');
                 let extractDir = yield tc.extractZip(archivePath, 'innosetup');
                 core.info('Adding to the cache ...');
-                installDir = yield tc.cacheDir(extractDir, 'ISCC.exe', 'latest', 'x64');
+                installDir = yield tc.cacheDir(extractDir, 'ISCC', 'latest', 'x64');
+            }
+            else {
+                core.info('Using cached version!');
             }
             core.addPath(installDir);
             core.info(installDir);
