@@ -23,4 +23,4 @@ jobs:
         uses: ./
        
       - name: Test install
-        run: ISCC.exe
+        run: ISCC.exe /?
