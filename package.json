@@ -1,8 +1,8 @@
 {
   "name": "setup-InnoSetup-action",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
-  "description": "TypeScript template action",
+  "description": "Addes ISCC to path",
   "main": "lib/main.js",
   "scripts": {
     "build": "tsc",

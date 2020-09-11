@@ -1,5 +1,5 @@
 name: 'setup-InnoSetup'
-description: 'Provide a description here'
+description: 'Addes ISCC to path'
 author: 'VarChar42'
 runs:
   using: 'node12'
