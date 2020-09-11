@@ -33,10 +33,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f82bcc9-9017-48ff-910f-3a02e7e5cd1e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/main.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/main.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599830237849</updated>
-      <workItem from="1599830238925" duration="1772000" />
+      <workItem from="1599830238925" duration="2492000" />
     </task>
     <servers />
   </component>

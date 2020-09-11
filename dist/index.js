@@ -112,6 +112,7 @@ function run() {
                 installDir = yield tc.cacheDir(extractDir, 'ISCC.exe', 'latest', 'x64');
             }
             core.addPath(installDir);
+            core.info(installDir);
         }
         catch (error) {
             core.setFailed(error.message);

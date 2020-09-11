@@ -17,11 +17,12 @@ async function run(): Promise<void> {
 
       core.info('Adding to the cache ...');
       installDir = await tc.cacheDir(extractDir, 'ISCC.exe', 'latest', 'x64');
+
     }
 
     core.addPath(installDir);
 
-
+    core.info(installDir);
 
   } catch (error) {
     core.setFailed(error.message)
